@@ -1,0 +1,65 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "ammarssistant-20181007193828-authRole",
+			"UnauthRoleArn": "arn:aws:iam::954256627439:role/ammarssistant-20181007193828-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::954256627439:role/ammarssistant-20181007193828-authRole",
+			"Region": "eu-central-1",
+			"DeploymentBucketName": "ammarssistant-20181007193828-deployment",
+			"UnauthRoleName": "ammarssistant-20181007193828-unauthRole",
+			"StackName": "ammarssistant-20181007193828",
+			"StackId": "arn:aws:cloudformation:eu-central-1:954256627439:stack/ammarssistant-20181007193828/5b4c1b40-ca57-11e8-8fad-50a68ae714c6"
+		}
+	},
+	"auth": {
+		"cognito892693c9": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/ammarssistant-20181007193828-deployment/amplify-cfn-templates/auth/cognito892693c9-cloudformation-template.yml",
+				"logicalId": "authcognito892693c9"
+			},
+			"lastPushTimeStamp": "2018-10-07T17:49:21.233Z",
+			"output": {
+				"IdentityPoolId": "eu-central-1:82d8ae8d-1dae-45e3-9b3d-d78cc4caf9ed",
+				"IdentityPoolName": "ammarassistant_identitypool_c3221076"
+			},
+			"lastPushDirHash": "yZIEjPwWcUBTqTKIp4VC4+ogqd0="
+		}
+	},
+	"analytics": {
+		"ammarassistant": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/ammarssistant-20181007193828-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsammarassistant"
+			},
+			"lastPushTimeStamp": "2018-10-07T17:49:21.233Z",
+			"output": {
+				"appName": "ammarassistant",
+				"Region": "us-east-1",
+				"Id": "806330d65cf94f6ba7727fbc4cd66e4a"
+			},
+			"lastPushDirHash": "oZlMekB08TgeAZBuBWE1ZzGCrAI="
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/ammarssistant-20181007193828-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-10-07T17:49:21.233Z",
+			"output": {
+				"S3BucketSecureURL": "https://ammarssistant-hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://ammarssistant-hostingbucket.s3-website.eu-central-1.amazonaws.com",
+				"Region": "eu-central-1",
+				"HostingBucketName": "ammarssistant-hostingbucket"
+			},
+			"lastPushDirHash": "MgkZCAuZeW8185x/RjX683zXHnA="
+		}
+	}
+}

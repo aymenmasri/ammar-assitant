@@ -1,0 +1,11 @@
+{
+    "appName": "ammarassistant",
+    "roleName": "pinpointLambdaRole23ccc5b8",
+    "cloudWatchPolicyName": "cloudWatchPolicy23ccc5b8",
+    "pinpointPolicyName": "pinpointPolicy23ccc5b8",
+    "authPolicyName": "pinpoint_amplify_23ccc5b8",
+    "unauthPolicyName": "pinpoint_amplify_23ccc5b8",
+    "authRoleName": "ammarssistant-20181007193828-authRole",
+    "unauthRoleName": "ammarssistant-20181007193828-unauthRole",
+    "IAMPrefix": "954256627439"
+}
