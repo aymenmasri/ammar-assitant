@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "ammarAssistant",
+    "name": "Ammar Assistant",
     "description": "This project is really great.",
-    "slug": "ammarAssistant",
+    "slug": "ammar-assistant",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": [
